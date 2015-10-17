@@ -90,5 +90,6 @@ def main():
     else:
         print("Bad command\nTry: [A]dd, [L]ist & [P]lay")
 
+# go to main
 if __name__ == '__main__':
     main()
