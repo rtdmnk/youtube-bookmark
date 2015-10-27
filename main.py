@@ -72,7 +72,7 @@ def main():
 
         # display whatever was found
         for line in lines:
-            line = re.match("(\d) (.+) url:.*? +(.*)", line)
+            line = re.match("(\d+) (.+) url:.*? +(.*)", line)
             number = line.group(1)
             title = line.group(2)
             genress = line.group(3)
